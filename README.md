@@ -21,7 +21,7 @@ I'm excited that you've taken the time to review my GitHub and Data Analyst Asse
    - Cleaned up the `product_type` field in `supplier_data_2`.
 
 5. **Material Standard Number Dictionary:**  
-   - Leveraged my engineering background and co-authorship in the *International Scientific Journal of Engineering and Material Science* to create a bidirectional dictionary mapping material names to their standard steel numbers.
+   - As is have expertise in this field, I knew that each material_name correcsponds specific material_name. So I created a bidirectional dictionary mapping material names to their standard steel numbers.
 
 6. **Common Field Identification:**  
    - Discovered a hidden common key (`breite`) between the two datasets.
@@ -34,9 +34,8 @@ I'm excited that you've taken the time to review my GitHub and Data Analyst Asse
    - Implemented logic to classify records: if `length_mm` is null, the record is a 'Coil_strip'; otherwise, it's a 'Sheet'.
 
 9. **Dataset Enhancements:**  
-   - Downloaded the final dataset and made minor additions to `defect_note` and `material_quality_norm`.
+   - Downloaded the final dataset and add small improvements to `defect_note` and `material_quality_norm`.
 
-10. **Conclusion:**  
     - These steps complete the data cleaning and preparation phase.
 
 ---
@@ -59,7 +58,7 @@ I'm excited that you've taken the time to review my GitHub and Data Analyst Asse
    - [Access BigQuery Console](https://console.cloud.google.com/bigquery?hl=ru&inv=1&invt=AbrAnw&organizationId=0&project=zeta-tracer-452317-u6&ws=!1m19!1m4!16m3!1m1!1szeta-tracer-452317-u6!3e12!1m6!12m5!1m3!1szeta-tracer-452317-u6!2seurope-west3!3s0aa90d6f-8f30-4911-aad8-6d343a7c32dd!2e1m6!12m5!1m3!1szeta-tracer-452317-u6!2seurope-west3!3s2df8c92f-5de4-4255-a348-e8986eb4ccdf!2e1)
 
 3. **Materialized View:**  
-   - Created a materialized view named `recommendations_mv` to ensure data is refreshed automatically when source tables (`buyer_preferences` or `task3_supplier_data`) are updated.
+   - Created a Materialized View named `recommendations_mv` to ensure data is refreshed automatically when source tables (`buyer_preferences` or `task3_supplier_data`) are updated.
 
 4. **Data Merging Logic:**  
    - Merged datasets on the `Finish` field and applied a filter on `Gross_weight` (i.e., `Gross_weight >= weight`) after thorough analysis to determine the best merging approach.

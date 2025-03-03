@@ -54,7 +54,7 @@ I'm excited that you've taken the time to review my GitHub and Data Analyst Asse
    - Joined `supplier_data1` and `supplier_data2` into a consolidated dataset called `task3_supplier_data`.
 
 2. **BigQuery Implementation:**  
-   - Employed BigQuery as the database platform.  
+   - I utilized BigQuery as the database platform.  
    - [Access BigQuery Console](https://console.cloud.google.com/bigquery?hl=ru&inv=1&invt=AbrAnw&organizationId=0&project=zeta-tracer-452317-u6&ws=!1m19!1m4!16m3!1m1!1szeta-tracer-452317-u6!3e12!1m6!12m5!1m3!1szeta-tracer-452317-u6!2seurope-west3!3s0aa90d6f-8f30-4911-aad8-6d343a7c32dd!2e1m6!12m5!1m3!1szeta-tracer-452317-u6!2seurope-west3!3s2df8c92f-5de4-4255-a348-e8986eb4ccdf!2e1)
 
 3. **Materialized View:**  
